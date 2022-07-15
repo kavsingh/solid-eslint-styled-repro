@@ -1,0 +1,23 @@
+{
+  "extends": "@tsconfig/node18-strictest/tsconfig.json",
+  "compilerOptions": {
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "module": "esnext",
+    "noEmit": true,
+    "sourceMap": true,
+    "target": "esnext"
+  },
+  "exclude": [
+    "**/node_modules"
+  ],
+  "include": [
+    "./src",
+    "./*.ts"
+  ]
+}
